@@ -1,0 +1,207 @@
+﻿@font-face {
+  font-family: "SFProDisplay Regular";
+  src: url("./../font/SFProDisplay-Regular.ttf");
+  font-style: normal;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 0;
+}
+.row {
+  margin: 0;
+}
+a {
+  text-decoration: none !important;
+}
+.btn:focus {
+  outline: 0;
+  outline-color: initial;
+  outline-style: none;
+  outline-width: 0px;
+  box-shadow: none !important;
+}
+
+body {
+  direction: ltr;
+  font-family: "SFProDisplay Regular";
+  font-weight: 700;
+  font-style: normal;
+  position: relative;
+  font-size: 14px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  line-height: 2;
+  height: 100vh;
+  background: #e5e5e5;
+}
+
+.col,
+.col-1,
+.col-10,
+.col-11,
+.col-12,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-auto,
+.col-lg,
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-auto,
+.col-md,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-auto,
+.col-sm,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-auto,
+.col-xl,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-auto {
+  padding: 0;
+}
+
+.flex-box {
+  display: inline-flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+button {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  font-family: "SFProDisplay Regular";
+  color: #ffffff !important;
+  background-color: #583ccf !important;
+  box-shadow: 0px 4px 25px rgba(88, 60, 207, 0.36);
+  border-radius: 10px !important;
+  width: 140px;
+  height: 50px;
+  transition: all .3s;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover {
+  box-shadow: none;
+}
+
+.container {
+  padding: 0 15px !important;
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 150px !important;
+  position: relative;
+  max-width: 1280px;
+}
+
+.header {
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 80px;
+  line-height: 95px;
+}
+
+.github img {
+  width: 18px;
+  height: 18px;
+}
+
+.github a {
+  margin-left: 13px;
+  color: #0587ff;
+  line-height: 17px;
+}
+
+.boxes {
+  margin-top: 20px;
+  position: relative;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.boxes .col-12 {
+  position: relative;
+}
+
+.box {
+  width: 300px;
+  height: 238px;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width:992px){
+  .box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.mt20 {
+  margin-top: 20px;
+}
